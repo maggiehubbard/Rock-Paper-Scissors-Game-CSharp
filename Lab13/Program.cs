@@ -19,8 +19,7 @@ namespace Lab13
             Player user;
             int oppWins = 0, userWins = 0, draws = 0;
             IValidator validator = new Validator();
-
-
+            
             Console.WriteLine("WELCOME TO ROCK PAPER SCISSORS APP");
             Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
 

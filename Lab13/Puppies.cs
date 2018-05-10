@@ -17,16 +17,9 @@ namespace Lab13
         Random r = new Random();
         public override Roshambo GenerateRoshambo()
         {
-            if ((r.Next(0, 2)) == 0)
-            {
-                return Roshambo.Rock;
-            }
-            else if ((r.Next(0, 2)) == 1)
-            {
-                return Roshambo.Paper;
-            }
-            else
-                return Roshambo.Scissors;
+            return (Roshambo)r.Next(0, 2);
+
+            
         }
     }
 }

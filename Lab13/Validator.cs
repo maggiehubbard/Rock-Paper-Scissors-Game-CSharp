@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab13
 {
-    public interface IValidator
+     public interface IValidator
     {
         bool IsValidPlayAgainst(string playAgainst);
         bool IsValidRoshambo(string roshambo);

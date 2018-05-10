@@ -18,6 +18,7 @@ namespace Lab13
         public override Roshambo GenerateRoshambo()
         {
             IValidator validator = new Validator();
+            
             Console.WriteLine("Rock, Paper or Scissors? (r/p/s): ");
            
             string input = Console.ReadLine().ToLower();
